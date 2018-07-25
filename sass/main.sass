@@ -1,17 +1,24 @@
 @import 'variables'
 
 
+body
+	font-family: $primaryFont
 
 .body-container
+	position: relative
 	display: flex
 	flex-direction: row
+	margin: 0
+	padding: 0
+
 
 
 .hero-img
 	width: 100%
 
 #hero-area
-	position: relative;
+	position: relative
+	display: none
 
 #hero-area
 	h1:first-child
@@ -21,7 +28,6 @@
 		left: 0
 		right: 0
 		font-size: 140px
-		font-family: $primaryFont
 		color: $red
 		width: 100%
 		padding: 0
@@ -38,7 +44,6 @@
 		left: 0
 		right: 0
 		font-size: 84px
-		font-family: $primaryFont
 		color: $white
 		width: 100%
 		padding: 0
@@ -58,30 +63,29 @@
 		margin-right: auto
 		margin-top: -30px
 		font-size: 24px
-		font-family: $primaryFont
 		font-weight: 600
 		color: $white
 		width: 52%
 		text-align: center
 		overflow-wrap: normal
+#hero-area
+	hr
+		background-color: $red
+		color: $red
+		height: 50px
+		width: 1920px
+		margin-top: -10px
+		margin-bottom: 2px
 
-hr
-	background-color: $red
-	color: $red
-	height: 50px
-	width: 1920px
-	margin-top: -10px
-
-iframe
-	display: block
+#iframe
+	display: none
 	z-index: 2
 	position: absolute
-	top: 80%
-	left: 0
+	top: -32.5%
+	left: 1%
 	right: 0
-	padding: 0
-	width: 500
-	height: 315
+	width: 742px
+	height: 409px
 	text-align:center
 	margin-left: auto
 	margin-right: auto
@@ -91,17 +95,93 @@ iframe
 	-webkit-box-shadow: 0 0 20px rgba(0,0,0,1);
 	-o-box-shadow: 0 0 20px rgba(0,0,0,1);
 
+
 .flex-left
+	position: relative
 	display: flex
-	width: 724px
+	width: 584px
 	flex-direction: row
 	flex-wrap: wrap
+	margin-right: -3px
+	margin-left: -5px
+	float: left
 
 .flex-left img
 	margin: 5px
 
 .flex-center
 	display: flex
-	width: 500px
-	flex-direction: column
 	flex-wrap: wrap
+	width: 500px
+	height: 400px
+	flex-direction:row
+	margin-top: 175px
+
+.flex-center img
+	margin: 5px
+
+#text-right
+	display:right
+	margin-top: 240px
+	margin-left: -55px
+	width: 695px
+	position: relative
+	z-index: 2
+
+
+#text-right
+	h3
+		font-size: 30.5px
+
+#text-right
+	h1
+		font-size: 50px
+		color: $red
+		margin-top: -46px
+
+#text-right
+	hr
+		height: 5px
+		background-color: $black
+		margin-top: -15px
+		padding-right: 185px
+		margin-right: -185px
+
+
+#text-right
+	p
+		word-wrap: wrap
+		font-weight: 600
+		font-family: $primaryFont
+		font-size: 13.2px
+
+#text-right
+	p:first-child
+		margin-top: 35px
+
+#text-right
+	p:nth-child(3)
+		color: $red
+		font-weight: 800
+
+.watermark
+	position: absolute
+	bottom: 0
+	right: 0
+	opacity: .1
+
+
+#img1
+	display: none
+
+#img2
+	display: none
+
+#img3
+	display: none
+
+#img4
+	display: none
+
+#img5
+	display: none
