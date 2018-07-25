@@ -8,5 +8,7 @@ module.exports = {
       "commonjs": true,
       "es6": true,
       "jquery": true
-    },
+    }, "parserOptions": {
+      "sourceType": "module",
+  }
 };
