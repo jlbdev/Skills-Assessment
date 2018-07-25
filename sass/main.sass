@@ -1,10 +1,107 @@
 @import 'variables'
 
 
-// Delete Me and Good Luck!
-body
-	height: 100vh
-	display: flex 
-	align-items: center 
-	justify-content: center 
-	text-align: center
+
+.body-container
+	display: flex
+	flex-direction: row
+
+
+.hero-img
+	width: 100%
+
+#hero-area
+	position: relative;
+
+#hero-area
+	h1:first-child
+		z-index: 2
+		position: absolute
+		top: 38.5%
+		left: 0
+		right: 0
+		font-size: 140px
+		font-family: $primaryFont
+		color: $red
+		width: 100%
+		padding: 0
+		margin: 0
+		letter-spacing: -5px
+		text-align: center
+
+
+#hero-area
+	h1:nth-child(2)
+		z-index: 2
+		position: absolute
+		top: 52%
+		left: 0
+		right: 0
+		font-size: 84px
+		font-family: $primaryFont
+		color: $white
+		width: 100%
+		padding: 0
+		margin-top: -5px
+		letter-spacing: -3px
+		text-align: center
+
+
+#hero-area
+	p
+		z-index: 2
+		position: absolute
+		top: 70%
+		left: 0
+		right: 0
+		margin-left: auto
+		margin-right: auto
+		margin-top: -30px
+		font-size: 24px
+		font-family: $primaryFont
+		font-weight: 600
+		color: $white
+		width: 52%
+		text-align: center
+		overflow-wrap: normal
+
+hr
+	background-color: $red
+	color: $red
+	height: 50px
+	width: 1920px
+	margin-top: -10px
+
+iframe
+	display: block
+	z-index: 2
+	position: absolute
+	top: 80%
+	left: 0
+	right: 0
+	padding: 0
+	width: 500
+	height: 315
+	text-align:center
+	margin-left: auto
+	margin-right: auto
+	border: black
+	box-shadow: 0 0 20px rgba(0,0,0,1);
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,1);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,1);
+	-o-box-shadow: 0 0 20px rgba(0,0,0,1);
+
+.flex-left
+	display: flex
+	width: 724px
+	flex-direction: row
+	flex-wrap: wrap
+
+.flex-left img
+	margin: 5px
+
+.flex-center
+	display: flex
+	width: 500px
+	flex-direction: column
+	flex-wrap: wrap
