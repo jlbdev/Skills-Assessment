@@ -15,7 +15,7 @@ gulp.task('default', ['styles', 'scripts', 'lint'], function() {
   gulp.watch('js/**/*.js', ['scripts', 'lint']);
   gulp.watch('./index.html').on('change', browserSync.reload);
   browserSync.init({
-    server: './',
+    server: 'localhost:3000',
     open: false,
     logPrefix: 'JLB Support'
   });
@@ -63,3 +63,6 @@ gulp.task('lint', function() {
     .pipe(eslint.failOnError());
 });
 
+gulp.task('message', function(){
+  console.log("This is a test")
+});

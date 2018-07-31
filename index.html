@@ -6,20 +6,53 @@
 
     <!-- styles -->
     <!-- Google Fonts Link Here -->
-    <link rel="stylesheet" href="./minified/styles.min.css">
-
+    <!--<link rel="stylesheet" href="./minified/styles.min.css">-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800" rel="stylesheet">
     <!-- scripts -->
-    <script type="text/javascript" src="./minified/scripts.min.js"></script>
+    <!--<script type="text/javascript" src="./minified/scripts.min.js"></script>-->
+    <script src="js/scripts.js"></script>
+
     <title></title>
   </head>
-  <body class="jlb-assessment-page">
-
+  <body onload="randomize()" class="jlb-assessment-page">
     <main class="body-container">
       <section class="wrapper">
-        <h1 id="welcome">You've got this!</h1>
-        <p>( i believe in you )</p>
+        <div id="random" >
+          <div class="text">
+              <h1>LOREM IPSUM</h1>
+              <h2>DOLOR SIT AMET ARAN</h2>
+              <p>Fusce tempus nulla a est vestibulum, sit amet vulputate neque fermentum.</p>
+              <p>Donec dictum eros sed sapien tempor scelerisque.</p>
+          </div>
+        </div>
       </section>
-
+      <section class="wrapper">
+        <div class="red-box"></div>
+      </section>
+      <section class="wrapper">
+          <div class="video">
+              <iframe width="800" height="500"
+              src="https://www.youtube.com/embed/tgbNymZ7vqY">
+              </iframe>
+          </div>
+        </section>
+      <section class="wrapper bottom">
+          <div class="collage">
+            <div class="collageOne"><img src="assets/COLLAGE_IMAGE_1.jpg" alt="Abstract"></div>
+            <div class="collageTwo"><img src="assets/COLLAGE_IMAGE_2.jpg" alt="Abstract"></div>
+            <div class="collageThree"><img src="assets/COLLAGE_IMAGE_5.jpg" alt="Abstract"></div>
+            <div class="collageFour"><img src="assets/COLLAGE_IMAGE_4.jpg" alt="Abstract"></div>
+            <div class="collageFive"><img src="assets/COLLAGE_IMAGE_3.jpg" alt="Abstract"></div>
+          </div>
+          <div class="assessment">
+            <h2>WELCOME TO YOUR</h2>
+            <h1 class="red">SKILLS ASSESSMENT.</h1>
+            <p> Mi bibendum neque egestas congue quisque. Consectetur a erat nam at lectus urna duis convallis convallis. Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim. </p>
+            <p> Mi bibendum neque egestas congue quisque. Consectetur a erat nam at lectus urna duis convallis convallis. Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim. </p>
+            <p class="red">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+       </section>
     </main>
 
   </body>
