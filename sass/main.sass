@@ -1,10 +1,141 @@
 @import 'variables'
 
 
-// Delete Me and Good Luck!
 body
-	height: 100vh
-	display: flex 
-	align-items: center 
-	justify-content: center 
-	text-align: center
+  margin: 0
+  font-family: 'Montserrat', sans-serif
+
+//------FirstSectionCss---//
+#random 
+  width: 100%
+  align-items: center 
+  justify-content: center 
+  text-align: center
+  background-image: url('../assets/HERO 1.jpg')
+  background-position: center center
+  background-size: cover
+  background-repeat: no-repeat
+  background-attachment: fixed
+
+.top_box
+  padding: 350px 0
+  line-height: 0
+
+  h1
+    font-size: 5vw
+    color: $red
+    text-transform: uppercase
+
+  h2
+    font-size: 3vw
+    color: $white
+    text-transform: uppercase
+
+  p
+    font-size: 1.2vw
+    color: $white
+
+//------SecondSectionCss---//
+.middle_box
+  height: 80px
+  background-color: $red
+
+//------VideoSectionCss---//
+.video_box
+  width: 50%
+  margin: -250px auto -260px auto
+  z-index: 1000
+
+//------CollageSectionCss---//
+.collage
+  width: 50%
+  height: 500px
+  float: left
+
+.collageOne
+  width: 410px
+  height: 380px
+  margin: 10px 10px 5px 0
+  float: left
+  background-image: url('../assets/COLLAGE_IMAGE_1.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+
+.collageTwo
+  width: 415px
+  height: 240px
+  margin: 270px 0px 5px 5px
+  float: right
+  background-image: url('../assets/COLLAGE_IMAGE_2.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+
+.collageThree
+  width: 120px
+  height: 250px
+  margin: 5px 5px 10px 0
+  float: left
+  background-image: url('../assets/COLLAGE_IMAGE_5.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+
+.collageFour
+  width: 280px
+  height: 250px
+  margin: 5px 9px 10px 5px
+  float: left
+  background-image: url('../assets/COLLAGE_IMAGE_4.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+
+.collageFive
+  width: 180px
+  height: 130px
+  margin: 5px 0px 10px 5px
+  float: left
+  background-image: url('../assets/COLLAGE_IMAGE_3.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+
+//------AssessmentSectionCss---//
+.overlay
+  width: 45%
+  height: 70%
+  background-color: $white
+  background-image: url('../assets/SPLASH WATERMARK.png')
+  background-size: cover
+  background-repeat: no-repeat
+  opacity: 0.1
+  position: absolute
+  z-index: -100
+
+.assessment
+  width: 45%
+  float: right
+  padding-left: 5%
+
+  h2
+    font-size: 3vw
+    color: $red
+    padding-bottom: 50px
+    border-bottom: 5px solid $black
+    text-transform: uppercase
+    line-height: 0
+    z-index: 1
+
+  h3
+    font-size: 2.4vw
+    padding-top: 280px
+    color: $black
+    text-transform: uppercase
+    line-height: 0
+    z-index: 1
+
+  p 
+    font-size: .8vw
+    color: $black
+    padding-right: 100px
+    z-index: 1
+
+  .red
+    color: $red

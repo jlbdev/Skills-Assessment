@@ -33,3 +33,20 @@ https://fonts.google.com/specimen/Montserrat
 Submitting
 ----------
 When you are done please push the changes with a README outlining your methods and let us know.
+
+
+Comments
+----------
+When I started working on this project, I had trouble getting Gulp to run correctly. After a few hours of research, I was still unable to minify my .Sass file to the .min.css file. I decided to come back to it later and started working on the layout of the page. I sketched up a layout and started implementing code to HTML/JS and a custom .Css file. After finally getting the layout completed, I went back to see if I could figure Gulp out. It turned out that I had it working the entire time, but it just needed a refresh. However, once I refreshed, all my layout (HTML, CSS, JS) got wiped clean. I restarted the entire project with the correct approach to using Sass.
+
+Methods
+----------
+Implemented box framework in HTML.
+Implemented Sass for styling.
+Used JavaScript/JQuery to randmize background images.
+Implemented Colors in Variables.Sass.
+Downloaded the Fonts for the Website.
+Embeded a video off Youtube for JLB.
+Installed an AOS Plugin for Animated Scrolling.
+
+

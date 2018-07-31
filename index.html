@@ -1,23 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head id="header">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
 
     <!-- styles -->
     <!-- Google Fonts Link Here -->
     <link rel="stylesheet" href="./minified/styles.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+    <link href="./aos/aos.css" rel="stylesheet">
 
-    <!-- scripts -->
+    <!-- scripts-->
     <script type="text/javascript" src="./minified/scripts.min.js"></script>
-    <title></title>
+    <script src="./aos/aos.js"></script>
+
+    <!-- favicon-->
+    <link rel="icon" href="assets/jlb.jpg" type="image/gif" sizes="16x16">
+
+    <title>JLB Skills Assessment</title>
   </head>
-  <body class="jlb-assessment-page">
+  <body onload="randomize()" class="jlb-assessment-page">
 
     <main class="body-container">
-      <section class="wrapper">
-        <h1 id="welcome">You've got this!</h1>
-        <p>( i believe in you )</p>
+      <!-- Section to load random background pictures-->
+      <section id="random" class="wrapper top_box" data-aos="fade-up" data-aos-duration="100">
+        <h1>Lorem ipsum</h1>
+        <h2>dolor sit amet aran</h2>
+        <p>Consectetur adipiscing elit, sed do eiusmod tempor</p>
+        <p>incididunt ut labore et dolore magna aliqua</p>
+      </section>
+      <!-- Section that represents the red box underneath the top section and video-->
+      <section class="middle_box"></section>
+      <!-- Video -->
+      <section class="video_box" data-aos="fade-up" data-aos-duration="3000">
+        <iframe width="835" height="500"
+            src="https://www.youtube.com/embed/JFFVDAZZQMk">
+        </iframe>
+      </section>
+      <!-- Collage/Text Section-->
+      <section class="bottom_box">
+        <!-- 50% Collage Section -->
+        <div class="collage">
+          <!-- Iniatialize AOS Scripts -->
+            <script>
+                AOS.init();
+            </script>
+
+          <div class="collageOne" data-aos="fade-right" data-aos-duration="1500"></div>
+          <div class="collageTwo" data-aos="flip-right" data-aos-duration="2000"></div>
+          <div class="collageThree" data-aos="fade-up" data-aos-duration="1500"></div>
+          <div class="collageFour" data-aos="zoom-in-down" data-aos-duration="1500"></div>
+          <div class="collageFive" data-aos="fade-up" data-aos-duration="2000"></div>
+        </div>
+        <!-- 50% Text Section -->
+        <div class="assessment">
+          <!-- Splash Watermark Overlay -->
+          <div class="overlay"></div>
+          <h3>Welcome to your</h3>
+          <h2>Skills Assessment</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Morbi quis feugiat neque. Aenean a sem mollis, rutrum ex ac, hendrerit dolor.
+             Suspendisse suscipit turpis leo, ut ullamcorper ante sodales in.
+             Pellentesque ultrices lorem et mauris molestie molestie. Donec non tempus urna.</p> 
+          <p>Donec non tempus urna. In felis turpis, imperdiet ac orci et, euismod cursus tellus. 
+             Nunc mollis sapien consequat nunc rhoncus, nec euismod erat facilisis. Etiam sodales justo id feugiat imperdiet.</p>
+          <p class="red">Morbi quis feugiat neque. Aenean a sem mollis, rutrum ex ac, hendrerit dolor. Donec non tempus urna. In felis turpis, imperdiet ac orci et, euismod cursus tellus.</p>
+        </div>
       </section>
 
     </main>
