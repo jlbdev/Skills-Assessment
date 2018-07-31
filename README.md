@@ -41,12 +41,12 @@ When I started working on this project, I had trouble getting Gulp to run correc
 
 Methods
 ----------
-Implemented box framework in HTML
-Implemented Sass for styling
-Used JavaScript/JQuery to randmize background images
-Implemented Colors in Variables.Sass
-Downloaded the Fonts for the Website
-Embeded a video off Youtube for JLB
-Installed an AOS Plugin for Animated Scrolling
+Implemented box framework in HTML.
+Implemented Sass for styling.
+Used JavaScript/JQuery to randmize background images.
+Implemented Colors in Variables.Sass.
+Downloaded the Fonts for the Website.
+Embeded a video off Youtube for JLB.
+Installed an AOS Plugin for Animated Scrolling.
 
 
