@@ -17,10 +17,12 @@ body
 	align-content: center
 
 .wrapper
+	flex-direction: column
 	align-items: center
-	
+	flex-wrap: wrap
 
-h1 
+h1
+	flex-direction: row
 	color: $c-is-primary
 	text-transform: uppercase
 	font-size: 6rem
@@ -33,6 +35,12 @@ h2
 	text-transform: uppercase
 	font-size: 2rem
 	
+p 
+	width: 51%
+	margin: auto
+	flex-shrink: 1
+	color: $c-is-secondary
+	font-weight: bold
 
 .jlb-assessment-page
 	background-image: url('/assets/HERO 1.jpg')
