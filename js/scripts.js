@@ -1,4 +1,5 @@
 $(document).ready(function() {
+<<<<<<< HEAD
 
   var images = [
        "../assets/HERO-1.jpg",
@@ -33,3 +34,7 @@ $(window).on("load",function() {
 
 
 
+=======
+  // write your scripts here
+});
+>>>>>>> 26d9945385d2e57ce85afffc367c7837730e0b44
