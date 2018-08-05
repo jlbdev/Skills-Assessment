@@ -1,0 +1,58 @@
+
+
+#content-title {
+	line-height: 0;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+
+}
+
+#blurb {
+	width: 40%;
+	margin-top: -25%;
+	margin-left: 45%;
+	margin-right: 2rem
+	padding-right: 2rem;
+	float: right;
+	text-align: left;
+	position: absolute bottom right;
+	clear: both;
+}
+
+
+b {
+	color: #de041c;
+}
+
+.background-watermark{
+	position: relative ;
+	overflow: hidden;
+	} 
+
+.background-watermark img {
+	z-index: -2;
+	position:fixed;
+	right: 0;
+	bottom: 0;
+	width: 50%;
+	height: auto;
+	opacity: .1;
+}
+
+
+hr {
+	border: solid black 2px;
+	width: 120%
+}
+
+#black-content-title {
+	font-weight: 900;
+	font-size: 1.5em;
+}
+
+#red-content-title {
+	font-size: 2.5em;
+	color: #de041c;
+	font-weight: 900;
+}
+
