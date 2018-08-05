@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Tools - HTML, CSS, JS, jQuery
 
 Methods - When creating the layout, I opted to make use of columns and sections
@@ -14,4 +14,3 @@ Methods - When creating the layout, I opted to make use of columns and sections
 		- when positioninng items and making a clear level of display so not to have 
 		  unnattrictive overlay, I used z-index often for specific these tasks.
 
-# Skills-Assessment-JLB
