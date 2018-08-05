@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding-top: 10%;
+	font-family: 'Montserrat';
+}
+
+
+#main {
+	margin-bottom: 50px;
+}
+
+
+
+
+.wrapper {
+	max-width: 1600px;
+}
+
+
+
+#video {
+	margin-top: -40px;
+	position: center absolute;
+}
+
+#picture-collage {
+	max-width: 50%;
+	float: left;
+}
+
+#video iframe {
+	margin-top: -9rem;
+	margin-bottom: 5px;
+	margin-left: 3px;
+-webkit-box-shadow: 3px 7px 37px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 7px 37px 2px rgba(0,0,0,0.75);
+box-shadow: 3px 7px 37px 2px rgba(0,0,0,0.75);
+float: left;
+
+}
+
+
+.fade {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
