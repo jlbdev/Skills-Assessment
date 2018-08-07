@@ -1,35 +1,17 @@
 # JLB Skills Assessment
-Copyright © 2018 JLB All rights reserved.
 
-Objective
----------
-Develop a webpage that matches the mockup in `./assets/mock.jpg`.
 
-The website should:
-  - Look as close to the mockup as possible on the latest versions of the browsers: Internet Explorer, Edge, Safari, Chrome, and Firefox at a screen width of 1920px.
-  - Sections should animate in on scroll. This animation is up to you.
-  - The hero image ( the image at the top of the page ) should randomly display one of the 3 hero images on page load.
+#javascript
+For the random hero images, I created a new array and then used math.random in order for one image to randomly be selected.
 
-Getting Started
----------------
-1. Fork this repository
-2. Make sure Node.js, NPM and Gulp are installed
-3. Run `npm init -y && npm install gulp && npm install gulp-sass gulp-autoprefixer browser-sync gulp-eslint gulp-concat gulp-uglify gulp-babel babel-core babel-preset-env gulp-rename`
-4. Run `gulp`
+#Animations
 
-You can access the site at `localhost:3000`.
+For animations I used AOS animations to allow the images to flip on scroll.
 
-Colors
-------
-Black: #000\
-White: #fff\
-Red: #de041c
+#COLLAGE
 
-Fonts
------
-Montserrat\
-https://fonts.google.com/specimen/Montserrat
+For the collage, I created multiple divs and gave them a background image. That allowed me to manipulate their positioning with flex box. I also added images to some of the divs in order to move them around as well.
 
-Submitting
-----------
-When you are done please push the changes with a README outlining your methods and let us know.
+#Fonts
+
+I could not get the google font to work. I tried it multiple ways and for the life of me it just was not displaying properly. I have imported google fonts and the past and have had no issues, so I am not quite sure why it wasn't working.
