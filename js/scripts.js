@@ -8,4 +8,5 @@ $(document).ready(function() {
                 images[2] = "HERO_2.jpg",
                 images[3] = "HERO_3.jpg",
       document.getElementById('hero').style.backgroundImage = "url(" + directory + images[randomNumb] + ")";
+      AOS.init();
 });
