@@ -7,42 +7,79 @@ body
 	font-family: 'Montserrat', sans-serif
 	height: 100vh
 	margin: 0
-	display: flex 
 	align-items: center 
 	justify-content: center 
 	text-align: center
 
+// .body-container
+// 	align-content: center
 .body-container
-	display: flex
-	align-content: center
+	background-image: url('/assets/HERO 1.jpg')
+	height: 150vh
 
-.wrapper
-	flex-direction: column
-	align-items: center
-	flex-wrap: wrap
+.wrapper 
+	height: 10em
 
 h1
-	flex-direction: row
-	color: $c-is-primary
+	margin: 0
+	color: $c-is-secondary
 	text-transform: uppercase
-	font-size: 6rem
+	font-size: 5rem
 	font-weight: bolder
-	margin-bottom: 0
+
+#welcome 
+	color: $c-is-primary
 
 h2	
 	color: $c-is-secondary
-	margin-top: 0
 	text-transform: uppercase
-	font-size: 2rem
+	font-size: 3rem
+	font-weight: bolder
+
+h3 
+	margin: 0
+
+h4 
+	margin: 0
 	
-p 
+.white--text
 	width: 51%
 	margin: auto
-	flex-shrink: 1
 	color: $c-is-secondary
 	font-weight: bold
 
-.jlb-assessment-page
-	background-image: url('/assets/HERO 1.jpg')
-	height: 100vh
+.grid--wrap
+	display: flex
+	background-image: url('/assets/SPLASH WATERMARK.png')
+	background-repeat: no-repeat
+	background-position: bottom right
 
+.grid--wrap__collage
+	display: flex
+	flex-wrap: wrap
+	padding: 0
+#image
+
+
+.grid--wrap__right
+	display: flex
+	flex-direction: column
+	padding: 0
+
+.grid--wrap__header
+	margin: auto 0
+
+.grid--wrap__text
+	margin: auto
+
+.black--text
+	text-align: left
+
+.red--text
+	text-align: left
+	color: $c-is-primary
+
+
+// .grid--collage > div
+// 	flex: 1 1 200px
+// 	justify-content: space-around
