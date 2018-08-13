@@ -16,6 +16,7 @@ body
 .body-container
 	background-image: url('/assets/HERO 1.jpg')
 	height: 150vh
+	border-bottom: 2em solid $c-is-primary
 
 .wrapper 
 	height: 10em
@@ -49,14 +50,14 @@ h4
 	font-weight: bold
 
 .grid--wrap
-	display: flex
+	display: grid
 	background-image: url('/assets/SPLASH WATERMARK.png')
 	background-repeat: no-repeat
 	background-position: bottom right
 
 .grid--wrap__collage
-	display: flex
-	flex-wrap: wrap
+	grid-template-columns: 40px 50px auto 50px 40px
+	grid-template-rows: 25% 100px auto
 	padding: 0
 #image
 
