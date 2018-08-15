@@ -3,6 +3,9 @@
 $c-is-primary: #de041c
 $c-is-secondary: #fff
 
+*
+	box-sizing: border-box
+
 body
 	font-family: 'Montserrat', sans-serif
 	height: 100vh
@@ -11,31 +14,45 @@ body
 	justify-content: center 
 	text-align: center
 
+.jlb-assessment-page
+
 // .body-container
 // 	align-content: center
 .body-container
 	background-image: url('/assets/HERO 1.jpg')
-	height: 150vh
+	display: grid
+	grid-template-columns: 0px 50px auto 50px 0px
+	height: 118vh
 	border-bottom: 2em solid $c-is-primary
 
 .wrapper 
-	height: 10em
+	grid-column-start: 2
+	grid-column-end: five
+	grid-row-start: row1-start
+	grid-row-end: 3
+	
+
 
 h1
 	margin: 0
 	color: $c-is-secondary
 	text-transform: uppercase
-	font-size: 5rem
+	font-size: 1em
 	font-weight: bolder
+	grid-column: 3 / 2
+	grid-row: second-line / 4
 
 #welcome 
 	color: $c-is-primary
+	font-size: 3.5em
+
 
 h2	
 	color: $c-is-secondary
 	text-transform: uppercase
-	font-size: 3rem
+	font-size: 3em
 	font-weight: bolder
+	margin-top: 0
 
 h3 
 	margin: 0
@@ -56,8 +73,6 @@ h4
 	background-position: bottom right
 
 .grid--wrap__collage
-	grid-template-columns: 40px 50px auto 50px 40px
-	grid-template-rows: 25% 100px auto
 	padding: 0
 #image
 
